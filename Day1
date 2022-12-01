@@ -9,8 +9,7 @@ if __name__ == '__main__':
 
     currentsum = 0
     sumlist = []
-    maxsum = 0
-
+    
     for l in inputliststring:
         if l == '':
             sumlist.append(currentsum)
