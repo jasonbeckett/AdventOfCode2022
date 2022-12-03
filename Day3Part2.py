@@ -40,15 +40,7 @@ if __name__ == '__main__':
                             print(char1)
                             totalpriority += priorityvalue(char1)
                             stopflag = 1
-
             group = []
-
-
-
-
-
-
-
 
     print(totalpriority)
 
