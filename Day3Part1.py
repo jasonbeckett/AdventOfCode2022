@@ -3,11 +3,6 @@ import sys
 
 inputliststring = []
 
-class class1:
-    def __init__(self, x , y):
-        self.x = x
-        self.y = y
-
 def function(input):
     return output
 
@@ -21,14 +16,10 @@ def priorityvalue(char):
 def splitstring(string):
     length = int(len(string))
 
-
     part1 = string[0:int(length/2)]
     part2 = string[(int(length/2)):]
 
     return ([part1,part2])
-
-
-
 
 if __name__ == '__main__':
     input = open('inputfiles/AdventOfCode2022_Input_Day3.txt', 'r')
