@@ -3,14 +3,6 @@ import sys
 
 inputliststring = []
 
-class class1:
-    def __init__(self, x , y):
-        self.x = x
-        self.y = y
-
-def function(input):
-    return output
-
 if __name__ == '__main__':
     input = open('inputfiles/AdventOfCode2022_Input_Day4.txt', 'r')
     inputliststring = input.read().split('\n')
