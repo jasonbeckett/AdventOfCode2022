@@ -25,8 +25,7 @@ if __name__ == '__main__':
     startprocess = 0
     for l in inputliststring:
         if startprocess == 1:
-            step1 = l.split('from')
-            #print(step1)
+            step1 = l.split('from')            
             move = int(step1[0].split('move ')[1])
             fromstack = int(step1[1].split(' to ')[0])
             tostack = int(step1[1].split(' to ')[1])
